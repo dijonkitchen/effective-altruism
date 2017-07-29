@@ -7,7 +7,8 @@ class UsersController < ApplicationController
         }
       },
       methods: [
-        :donated
+        :donated,
+        :left_to_donate
       ]
     )
   end
