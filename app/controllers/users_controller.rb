@@ -5,7 +5,10 @@ class UsersController < ApplicationController
         donations: {
           methods: :amount
         }
-      }
+      },
+      methods: [
+        :donated
+      ]
     )
   end
 end
